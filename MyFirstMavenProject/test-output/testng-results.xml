@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-04T21:34:34 SAST" name="Rression Suite" finished-at="2022-04-04T21:34:34 SAST" duration-ms="207">
+    <groups>
+      <group name="UAT">
+        <method signature="VehicleLoan.uat()[pri:0, instance:loans.VehicleLoan@1d9b7cce]" name="uat" class="loans.VehicleLoan"/>
+      </group> <!-- UAT -->
+    </groups>
+    <test started-at="2022-04-04T21:34:34 SAST" name="Home Loan" finished-at="2022-04-04T21:34:34 SAST" duration-ms="46">
+      <class name="loans.HomeLoan">
+        <test-method is-config="true" signature="cleanDB()[pri:0, instance:loans.HomeLoan@48ae9b55]" started-at="2022-04-04T21:34:34 SAST" name="cleanDB" finished-at="2022-04-04T21:34:34 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDB -->
+        <test-method signature="home1()[pri:0, instance:loans.HomeLoan@48ae9b55]" started-at="2022-04-04T21:34:34 SAST" name="home1" finished-at="2022-04-04T21:34:34 SAST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home1 -->
+        <test-method signature="home2()[pri:0, instance:loans.HomeLoan@48ae9b55]" started-at="2022-04-04T21:34:34 SAST" name="home2" finished-at="2022-04-04T21:34:34 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home2 -->
+      </class> <!-- loans.HomeLoan -->
+      <class name="loans.HomeLoan2">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:loans.HomeLoan2@1139b2f3]" started-at="2022-04-04T21:34:34 SAST" name="beforeTest" finished-at="2022-04-04T21:34:34 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="home3()[pri:0, instance:loans.HomeLoan2@1139b2f3]" started-at="2022-04-04T21:34:34 SAST" name="home3" finished-at="2022-04-04T21:34:34 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home3 -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:loans.HomeLoan2@1139b2f3]" started-at="2022-04-04T21:34:34 SAST" name="beforeTest" finished-at="2022-04-04T21:34:34 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="homeFraud()[pri:0, instance:loans.HomeLoan2@1139b2f3]" started-at="2022-04-04T21:34:34 SAST" name="homeFraud" finished-at="2022-04-04T21:34:34 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeFraud -->
+      </class> <!-- loans.HomeLoan2 -->
+    </test> <!-- Home Loan -->
+    <test started-at="2022-04-04T21:34:34 SAST" name="Personal Loan" finished-at="2022-04-04T21:34:34 SAST" duration-ms="12">
+      <class name="loans.PersonalLoan">
+        <test-method signature="personal1()[pri:0, instance:loans.PersonalLoan@402bba4f]" started-at="2022-04-04T21:34:34 SAST" name="personal1" finished-at="2022-04-04T21:34:34 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal1 -->
+        <test-method signature="personal2()[pri:0, instance:loans.PersonalLoan@402bba4f]" started-at="2022-04-04T21:34:34 SAST" name="personal2" finished-at="2022-04-04T21:34:34 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal2 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:loans.PersonalLoan@402bba4f]" started-at="2022-04-04T21:34:34 SAST" name="afterTest" finished-at="2022-04-04T21:34:34 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- loans.PersonalLoan -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2022-04-04T21:34:34 SAST" name="Vehicle Loan" finished-at="2022-04-04T21:34:34 SAST" duration-ms="11">
+      <class name="loans.HomeLoan">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:loans.HomeLoan@48ae9b55]" started-at="2022-04-04T21:34:34 SAST" name="beforeSuite" finished-at="2022-04-04T21:34:34 SAST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:loans.HomeLoan@48ae9b55]" started-at="2022-04-04T21:34:34 SAST" name="afterSuite" finished-at="2022-04-04T21:34:34 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- loans.HomeLoan -->
+      <class name="loans.VehicleLoan">
+        <test-method signature="uat()[pri:0, instance:loans.VehicleLoan@1d9b7cce]" started-at="2022-04-04T21:34:34 SAST" name="uat" finished-at="2022-04-04T21:34:34 SAST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uat -->
+        <test-method signature="vehicle1()[pri:0, instance:loans.VehicleLoan@1d9b7cce]" started-at="2022-04-04T21:34:34 SAST" name="vehicle1" finished-at="2022-04-04T21:34:34 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vehicle1 -->
+        <test-method signature="vehicle2()[pri:0, instance:loans.VehicleLoan@1d9b7cce]" started-at="2022-04-04T21:34:34 SAST" name="vehicle2" finished-at="2022-04-04T21:34:34 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vehicle2 -->
+        <test-method signature="vehicle3()[pri:0, instance:loans.VehicleLoan@1d9b7cce]" started-at="2022-04-04T21:34:34 SAST" name="vehicle3" finished-at="2022-04-04T21:34:34 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vehicle3 -->
+      </class> <!-- loans.VehicleLoan -->
+    </test> <!-- Vehicle Loan -->
+  </suite> <!-- Rression Suite -->
+</testng-results>

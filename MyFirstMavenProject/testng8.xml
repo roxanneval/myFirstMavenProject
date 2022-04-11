@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Practical Testing">
+<groups>
+	<run>
+<exclude name="skip"></exclude>
+	</run>
+</groups>
+<listeners>
+<listener class-name="practical.ListenerPractical"></listener>
+</listeners>
+  <test thread-count="3" name="Practical">
+    <classes>
+      <class name="practical.Practical"/>	
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
